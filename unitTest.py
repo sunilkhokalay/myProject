@@ -1,4 +1,4 @@
-import unittest,logging,os
+import unittest,logging
 log = logging.getLogger(__name__)
 logging.basicConfig(filename="C:\git\myProject\log.txt",level=logging.DEBUG,)
 
