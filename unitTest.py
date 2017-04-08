@@ -1,6 +1,5 @@
 import unittest,logging,os
 log = logging.getLogger(__name__)
-cwd = os.getcwd()
 logging.basicConfig(filename="C:\git\myProject\log.txt",level=logging.DEBUG,)
 
 class TestCase(unittest.TestCase):
